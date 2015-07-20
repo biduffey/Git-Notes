@@ -7,25 +7,49 @@ output: html_document
 
 The GitHub repo for this is located at <https://github.com/biduffey/Git-Notes>.
 
-# Installing local Git To run with Rstudio
+# Using Git Version Control
+
+## Installing local Git To run with Rstudio
   * Install git software locally, make sure to choose the option where it is added to PATH  
     * If it doesn’t open from R-Studio then it is still not in PATH
   * If not, computer ->  system properties ->advanced system settings -> environmental variables -> change path variable to include sh.exe 
 
+## Installing Local Git To run with Rstudio
+  *	Install git software locally, make sure to choose the option where it is added to PATH  
+    * If it doesn’t open from R-Studio then it is still not in PATH
+    * If not, computer ->  system properties ->advanced system settings -> environmental variables -> change path variable to include sh.exe 
 
+## Git hub account
+  * Before syncing, you have to create a repo on git hub.com
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Working with Git
+  * Open the shell in Rstudio
+  * Use bash commands (pwd, ls, cd, cd .., etc.) to navigate to the directory you want
+  * Run the command git init . this will convert the directory you are in into a git repo. 
+  * Otherwise, pen up and edit what ever r scripts or markdown documents are needed.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Tracking
+  * Tell git to track the files in the repository
+  * Git add . to add all of the files
+    * Git add * to add all of the non-cached files
+  * To view a list of tracked files: git ls-files
 
-```{r}
-summary(cars)
-```
+## Committing
+  * **Git commit** basically creates a checkpoint to which you can revert and compare future changes. 
+    * Message screen will come up … add something (should be in yellow font)
+    * Press esc, type “:wq”, press enter
 
-You can also embed plots, for example:
+## Pushng
+  * **Git Push https://github.com/biduffey/nameofrep.git**
+    * ->username/password
+    * There cannot be any files in github that are not already tracked and committed in the repo.  If there are you must actually pull those files into the local git before pulling. 
 
-```{r, echo=FALSE}
-plot(cars)
-```
+## Pulling
+  * **Git pull https://github.com/biduffey/nameofrep.git**
+    * If there are any duplicate files, I think you must move, rename, or delete the one in the local repository. 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Forking
+  * A fork is just a copy
+	
+## Resources
+  * Super helpful website: http://readwrite.com/2013/10/02/github-for-beginners-part-2 
