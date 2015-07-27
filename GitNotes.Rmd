@@ -57,6 +57,9 @@ The GitHub repo that contains the code that generated these notes is located at 
 
 ## Forking
   * A fork is just a copy
+  * The is really just used to experiment, or make a non-commital change, by making the change to a copy - instead of the real deal. 
+  * To fork a repo, type *git clone https://github.com/biduffey/<<nameofrepyouwanttoclone.git>> nameofnewfolder*
 	
 ## Resources
   * Super helpful website: http://readwrite.com/2013/10/02/github-for-beginners-part-2 
+  * https://help.github.com/articles/fork-a-repo/
