@@ -6,7 +6,7 @@ output: pdf_document
 ---
 
 # Ben's Personal Git Notes
-<p> *The GitHub repo that contains the code that generated these notes is located at <https://github.com/biduffey/Git-Notes>.This was written in Atom markdown</p>
+<p> *The GitHub repo that contains the code that generated these notes is located at <https://github.com/biduffey/Git-Notes>.This was written in Atom markdown*</p>
 
 ## Installing Git on Windows
   <p> For windows, install git software locally from the website. Make sure to choose the option where it is added to PATH. Make sure git bash is added to PATH by going to command prompt & typing "git bash." If Git the git bash shell doesn't open then go to environmental variables and change path variable to include the git executable file </p>
