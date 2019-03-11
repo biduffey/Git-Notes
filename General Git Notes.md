@@ -53,7 +53,9 @@ Git HUB integration!
   * add key: ssh-add ~/.ssh/id_rsa
   * test: ssh -T git@github.com
   * reconfig repo to use ssh:
-  * git remote set-url origin git@github.com:biduffey/PostgreSQL-Practice.git
+  * remember that the ssh needs a special url!!! in the form <<git remote set-url origin git@github.com:biduffey/Git-Notes.git>>
+      * git remote set-url origin git@github.com:biduffey/PostgreSQL-Practice.git
+
 
 ## Pushing to Git hub
     * *Git Push https://github.com/biduffey/nameofrep.git**
